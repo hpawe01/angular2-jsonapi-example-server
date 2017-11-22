@@ -1,0 +1,31 @@
+{
+  "name": "angular2-jsonapi-example-server",
+  "version": "1.0.0",
+  "description": "Server component for angular2-jsonapi-example",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Friedrich Pawelka",
+  "license": "MIT",
+  "dependencies": {
+    "faker": "^4.1.0",
+    "jsonapi-server": "^4.1.1"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hpawe01/angular2-jsonapi-example-server.git"
+  },
+  "keywords": [
+    "jsonapi",
+    "example",
+    "angular2",
+    "server"
+  ],
+  "bugs": {
+    "url": "https://github.com/hpawe01/angular2-jsonapi-example-server/issues"
+  },
+  "homepage": "https://github.com/hpawe01/angular2-jsonapi-example-server#readme"
+}

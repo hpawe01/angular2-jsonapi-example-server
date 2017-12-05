@@ -12,10 +12,7 @@ jsonApi.define(
     {
       name: jsonApi.Joi.string(),
       // Relationships
-      posts: jsonApi.Joi.belongsToMany({
-        resource: 'posts',
-        as: 'author'
-      }),
+      posts: jsonApi.Joi.many('posts'),
       comments: jsonApi.Joi.belongsToMany({
         resource: 'comments',
         as: 'user',
@@ -30,6 +27,10 @@ function getExamples() {
   return [1,2,3,4,5,6].map(index => (
     {
       name: name.findName(),
+      posts: [{
+        type: 'posts',
+        id: index.toString(),
+      }],
     }
   ));
 }

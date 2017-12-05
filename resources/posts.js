@@ -33,7 +33,7 @@ function getExamples() {
       content: lorem.paragraphs(),
       author: {
         type: 'users',
-        id: random.number({min: 1, max: 6}).toString(),
+        id: index.toString(),
       },
     }
   ));

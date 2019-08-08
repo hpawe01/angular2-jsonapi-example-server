@@ -5,7 +5,8 @@ var path = require('path');
 jsonApi.setConfig({
   protocol: 'http',
   hostname: 'localhost',
-  port: 4000,
+  base: 'v1',
+  port: 8000,
   graphiql: false,
 
 });
